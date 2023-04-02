@@ -59,6 +59,9 @@ body{
 main{
     grid-area: main;
 }
+.background_container{
+    background-color: #EEEEEE
+}
 .main_container_one{
     display: flex;
 }
@@ -169,4 +172,107 @@ main{
 .main_container_two{
     display: flex;
     height: 527px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 791px;
+}
+.slogan_about{
+    margin-top: 73px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+.subtitle_about{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.subtitle_li{
+    margin: 0;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.services_list{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+}
+.services_list li{
+    padding-top: 30px;
+}
+.services_list li::before{
+    display: inline-block;
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #FB565A;
+    margin-bottom: 4px;
+    margin-right: 9px;
+}
+
+.guarantee{
+    display: flex;
+    flex-direction: column;
+}
+.img_nerds_guarantee{
+    width: 360px;
+    height: 208px;
+    margin-top: 39px;
+    margin-left: 100px;
+}
+.slogan_guarantee{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-left: 125px;
+}
+.list_guarantee{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding-left: 55px;
+}
+.list_guarantee li {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+    padding-left: 50px;
+}
+.list_guarantee li::after{
+    content: "%";
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    padding-bottom: 5px;
+    height: 40px;
+}
+.list_guarantee_two{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding-left: 75px;
+    width: 100%;
+}
+.list_guarantee_two li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 30px;
 }
